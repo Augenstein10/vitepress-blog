@@ -3,9 +3,9 @@
   <div class="count-down s-card">
     <div class="count-left">
       <span class="text"> 距离 </span>
-      <span class="name">{{ theme.aside.countDown.data.name }}</span>
-      <span class="time"> {{ getDaysUntil(theme.aside.countDown.data.date) }} </span>
-      <span class="date">{{ theme.aside.countDown.data.date }}</span>
+      <span class="name">{{ festival?.holidayName || "-" }}</span>
+      <span class="time"> {{ Number(festival?.residueDays + 1) || "-" }} </span>
+      <span class="date">{{ festival?.date || "-" }}</span>
     </div>
     <div v-if="remainData" class="count-right">
       <div v-for="(item, tag, index) in remainData" :key="index" class="count-item">
@@ -31,7 +31,7 @@
 
 <script setup>
 import { getTimeRemaining, getDaysUntil } from "@/utils/timeTools";
-
+import { getFestival } from "@/utils/getCommonInfo.mjs";
 const { theme } = useData();
 
 // 倒计时数据
@@ -46,8 +46,24 @@ const getRemainData = () => {
   }, 1000);
 };
 
+// 节日
+const festival = ref(null);
+
+// 获取节日
+const getFestivalData = async () => {
+  const result = await getFestival();
+  if (result.code === 1) {
+    festival.value = result.data.find((item) => {
+      return item.residueDays >= 0;
+    });
+  } else {
+    festival.value = null;
+  }
+};
+
 onMounted(() => {
   getRemainData();
+  getFestivalData();
 });
 
 onBeforeUnmount(() => {

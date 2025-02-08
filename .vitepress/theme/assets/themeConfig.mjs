@@ -3,7 +3,7 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Yexu",
+    title: "Yex",
     // 站点描述
     description: "A Daily Note Site",
     // 站点logo
@@ -14,7 +14,7 @@ export const themeConfig = {
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Yexu",
+      name: "Yex",
       cover: "/images/logo/logo.webp",
       email: "114514@gmail.com",
       link: "https://www.imsyy.top",
@@ -239,19 +239,11 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
+        link: "xlin129421@gmail.com",
       },
       {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
-      },
-      {
-        icon: "telegram",
-        link: "https://t.me/bottom_user",
-      },
-      {
-        icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
+        link: "https://github.com/Augenstein10",
       },
       {
         icon: "qq",
@@ -259,7 +251,7 @@ export const themeConfig = {
       },
       {
         icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
+        link: "https://twitter.com",
       },
     ],
     // sitemap
@@ -342,7 +334,7 @@ export const themeConfig = {
     // 站点简介
     hello: {
       enable: true,
-      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，其中大部分内容会侧重于<strong>前端开发</strong>。希望你可以在这里找到对你有用的知识和教程。",
+      text: "希望你可以在这里找到对你有用文章。",
     },
     // 目录
     toc: {
@@ -357,8 +349,8 @@ export const themeConfig = {
       enable: true,
       // 倒计时日期
       data: {
-        name: "春节",
-        date: "2025-01-29",
+        name: "劳动节",
+        date: "2025-05-01",
       },
     },
     // 站点数据
@@ -401,9 +393,9 @@ export const themeConfig = {
   rewardData: {
     enable: true,
     // 微信二维码
-    wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
+    wechat: "https://unsplash.it/186/186?random=123",
     // 支付宝二维码
-    alipay: "https://pic.efefee.cn/uploads/2024/04/07/661206631d3b5.webp",
+    alipay: "https://unsplash.it/186/186?random=456",
   },
   // 图片灯箱
   fancybox: {
