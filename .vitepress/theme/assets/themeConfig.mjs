@@ -3,27 +3,27 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "Yexu",
     // 站点描述
-    description: "Hello World",
+    description: "A Daily Note Site",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.imsyy.top",
+    site: "https://yexu-vitepress.vercel.app",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "Yexu",
       cover: "/images/logo/logo.webp",
       email: "114514@gmail.com",
       link: "https://www.imsyy.top",
     },
   },
   // 备案信息
-  icp: "萌ICP备114514号",
+  icp: "萌ICP备07号",
   // 建站日期
-  since: "2020-07-28",
+  since: "2025-02-08",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -222,16 +222,16 @@ export const themeConfig = {
     // 是否开启封面显示
     showCover: {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
-      enable: true,
+      enable: false,
       // 封面布局方式: left | right | both
-      coverLayout: 'both',
+      coverLayout: "both",
       // 默认封面(随机展示)
       defaultCover: [
-        'https://example.com/1.avif',
-        'https://example.com/2.avif',
-        'https://example.com/3.avif'
-      ]
-    }
+        "https://example.com/1.avif",
+        "https://example.com/2.avif",
+        "https://example.com/3.avif",
+      ],
+    },
   },
   // 页脚信息
   footer: {
@@ -316,7 +316,7 @@ export const themeConfig = {
   },
   // 评论
   comment: {
-    enable: false,
+    enable: true,
     // 评论系统选择
     // artalk / twikoo
     type: "artalk",
