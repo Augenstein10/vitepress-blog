@@ -5,7 +5,7 @@
       <!-- 介绍 -->
       <div class="about-item hello">
         <span class="text1">你好，很高兴认识你👋</span>
-        <span class="text2 title2">我是 無名</span>
+        <span class="text2 title2">我是 Yex</span>
         <span class="text3">是一名 前端开发工程师、独立开发者、博主</span>
       </div>
       <!-- 追求 -->
@@ -38,7 +38,7 @@
         </div>
       </div>
       <!-- 生涯 -->
-      <div class="about-item career">
+      <!-- <div class="about-item career">
         <span class="tip">生涯</span>
         <span class="title2">
           <i>無限進步</i>
@@ -52,11 +52,11 @@
           src="https://pic.efefee.cn/uploads/2024/02/22/65d71db18bcf9.png"
           alt="career"
         />
-      </div>
+      </div> -->
     </div>
     <div class="about-content" style="grid-template-columns: 3fr 2fr">
       <!-- 性格 -->
-      <div class="about-item character" style="--color: #4298b4">
+      <!-- <div class="about-item character" style="--color: #4298b4">
         <span class="tip">性格</span>
         <span class="title2">物流师</span>
         <span class="title2" style="color: var(--color)">ISTJ-A / ISTJ-T</span>
@@ -73,15 +73,15 @@
           alt="male"
           class="male"
         />
-      </div>
+      </div> -->
       <!-- 座右铭 -->
-      <div class="about-item">
+      <!-- <div class="about-item">
         <span class="tip">座右铭</span>
         <span class="title1" style="margin-top: 20px">脚踏实地，</span>
         <span class="title2">一丝不苟。</span>
-      </div>
+      </div> -->
     </div>
-    <div class="about-content" style="grid-template-columns: 1fr 1fr">
+    <!-- <div class="about-content" style="grid-template-columns: 1fr 1fr">
       <div
         class="about-item like image"
         style="
@@ -112,10 +112,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="about-content" style="grid-template-columns: 2fr 3fr">
       <!-- 数据 -->
-      <div
+      <!-- <div
         class="about-item static image"
         style="
           --color: #0f1114;
@@ -137,9 +137,9 @@
             </span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- 信息 -->
-      <div class="about-item child">
+      <!-- <div class="about-item child">
         <div
           class="about-item map image"
           style="background-image: url(https://pic.efefee.cn/uploads/2024/04/15/661cbccc56af5.webp)"
@@ -156,7 +156,7 @@
             <span class="info-num" style="--color: #dfac46">前端开发工程师</span>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- 心路历程 -->
     <div class="about-content" style="display: flex">
@@ -221,35 +221,23 @@ const skillsData = [
     link: "https://nodejs.org/",
   },
   {
-    name: "Python",
-    color: "#3776AB",
-    icon: "python",
-    link: "https://www.python.org/",
-  },
-  {
-    name: "Docker",
-    color: "#2496f2",
-    icon: "docker",
-    link: "https://www.docker.com/",
-  },
-  {
     name: "Git",
     color: "#F05032",
     icon: "git",
     link: "https://git-scm.com/",
   },
-  {
-    name: "Photoshop",
-    color: "#31A8FF",
-    icon: "photoshop",
-    link: "https://www.adobe.com/cn/lead/creativecloud/business.html",
-  },
-  {
-    name: "ChatGPT",
-    color: "#4AA181",
-    icon: "chatgpt",
-    link: "https://chat.openai.com/",
-  },
+  // {
+  //   name: "Photoshop",
+  //   color: "#31A8FF",
+  //   icon: "photoshop",
+  //   link: "https://www.adobe.com/cn/lead/creativecloud/business.html",
+  // },
+  // {
+  //   name: "ChatGPT",
+  //   color: "#4AA181",
+  //   icon: "chatgpt",
+  //   link: "https://chat.openai.com/",
+  // },
 ];
 
 // 站点统计数据

@@ -247,7 +247,7 @@ export const themeConfig = {
       },
       {
         icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
+        link: "https://qq.com",
       },
       {
         icon: "twitter-x",
@@ -268,10 +268,10 @@ export const themeConfig = {
       {
         text: "项目",
         items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
+          { text: "Home", link: "https://github.com", newTab: true },
+          { text: "SPlayer", link: "https://github.com", newTab: true },
+          { text: "DailyHotApi", link: "https://github.com", newTab: true },
+          { text: "Snavigation", link: "https://github.com", newTab: true },
         ],
       },
       {
@@ -294,12 +294,12 @@ export const themeConfig = {
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
+          { text: "站点状态", link: "https://github.com", newTab: true },
+          { text: "一个导航", link: "https://github.com", newTab: true },
+          { text: "站点订阅", link: "https://github.com", newTab: true },
           {
             text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
+            link: "https://github.com",
             newTab: true,
           },
         ],
