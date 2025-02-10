@@ -7,7 +7,7 @@ export const themeConfig = {
     // 站点描述
     description: "A Daily Note Site",
     // 站点logo
-    logo: "/images/logo/logo.webp",
+    logo: "/images/logo/logo.png",
     // 站点地址
     site: "https://yexu-vitepress.vercel.app",
     // 语言
@@ -15,8 +15,8 @@ export const themeConfig = {
     // 作者
     author: {
       name: "Yex",
-      cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
+      cover: "/images/logo/logo.png",
+      email: "xlin129421@gmail.com",
       link: "https://www.imsyy.top",
     },
   },
@@ -148,7 +148,7 @@ export const themeConfig = {
       name: "博客",
       list: [
         {
-          icon: "/images/logo/logo.webp",
+          icon: "/images/logo/logo.png",
           name: "主站",
           url: "/",
         },
@@ -164,7 +164,7 @@ export const themeConfig = {
       list: [
         {
           icon: "https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs_bigger.jpg",
-          name: "x.com",
+          name: "X",
           url: "https://x.com",
         },
         {
