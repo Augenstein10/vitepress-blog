@@ -9,7 +9,7 @@ import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
 import App from "@/App.vue";
 // 全局样式
 import "@/style/main.scss";
-
+import "@/style/tailwind.css";
 // pinia
 const pinia = createPinia();
 pinia.use(piniaPluginPersistedstate);
