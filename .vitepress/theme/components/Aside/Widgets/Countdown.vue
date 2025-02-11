@@ -2,9 +2,11 @@
   <!-- 倒计时 -->
   <div class="count-down s-card">
     <div class="count-left">
-      <span class="text"> 距离 </span>
+      <span class="text">{{ computedRemainTime > 0 ? "距离" : "今天是" }}</span>
       <span class="name">{{ festival?.holidayName || "-" }}</span>
-      <span class="time"> {{ Number(festival?.residueDays + 1) || "-" }} </span>
+      <span class="time">
+        {{ computedRemainTime > 0 ? computedRemainDaysHours : "" }}
+      </span>
       <span class="date">{{ festival?.date || "-" }}</span>
     </div>
     <div v-if="remainData" class="count-right">
@@ -33,6 +35,9 @@
 import { getTimeRemaining, getDaysUntil } from "@/utils/timeTools";
 import { getFestival } from "@/utils/getCommonInfo.mjs";
 const { theme } = useData();
+import dayjs from "dayjs";
+import customParseFormat from "dayjs/plugin/customParseFormat";
+dayjs.extend(customParseFormat);
 
 // 倒计时数据
 const remainData = ref(null);
@@ -60,6 +65,23 @@ const getFestivalData = async () => {
     festival.value = null;
   }
 };
+
+// 计算节日开始的剩余毫秒数
+const computedRemainTime = computed(() => {
+  const time = dayjs(festival.value?.date, "YYYY年MM月DD日").diff(dayjs());
+  return time;
+});
+
+// 计算节日开始的剩余
+const computedRemainDaysHours = computed(() => {
+  const days = dayjs(festival.value?.date, "YYYY年MM月DD日").diff(dayjs(), "day");
+  const hours = dayjs(festival.value?.date, "YYYY年MM月DD日").diff(dayjs(), "hour");
+  if (days > 0) {
+    return `${days}天`;
+  } else {
+    return `${hours}小时`;
+  }
+});
 
 onMounted(() => {
   getRemainData();

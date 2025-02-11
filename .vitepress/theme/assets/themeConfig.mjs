@@ -179,13 +179,18 @@ export const themeConfig = {
       list: [
         {
           icon: "/images/logo/github.svg",
-          name: "home",
+          name: "Home",
           url: "https://github.com/imsyy/home",
         },
         {
           icon: "/images/logo/github.svg",
-          name: "tailwindcss",
+          name: "Tailwindcss",
           url: "https://github.com/tailwindlabs/tailwindcss",
+        },
+        {
+          icon: "/images/logo/github.svg",
+          name: "电报百科全书",
+          url: "https://github.com/AZeC4/TelegramGroup",
         },
       ],
     },
