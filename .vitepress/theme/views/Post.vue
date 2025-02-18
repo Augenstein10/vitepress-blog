@@ -93,6 +93,8 @@
         <RelatedPost />
         <!-- 评论 -->
         <Comments ref="commentRef" />
+        <!-- 评论 -->
+        <GiscusComponent />
       </article>
       <Aside showToc />
     </div>
