@@ -17,7 +17,7 @@ export const themeConfig = {
       name: "Yex",
       cover: "/images/logo/logo.png",
       email: "xlin129421@gmail.com",
-      link: "https://www.imsyy.top",
+      link: "https://github.com",
     },
   },
   // 备案信息

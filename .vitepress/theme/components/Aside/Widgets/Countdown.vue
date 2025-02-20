@@ -77,7 +77,7 @@ const computedRemainDaysHours = computed(() => {
   const days = dayjs(festival.value?.date, "YYYY年MM月DD日").diff(dayjs(), "day");
   const hours = dayjs(festival.value?.date, "YYYY年MM月DD日").diff(dayjs(), "hour");
   if (days > 0) {
-    return `${days}天`;
+    return `${Math.ceil(hours / 24)}天`;
   } else {
     return `${hours}小时`;
   }

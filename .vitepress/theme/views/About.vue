@@ -159,7 +159,7 @@
       </div> -->
     </div>
     <!-- 心路历程 -->
-    <div class="about-content" style="display: flex">
+    <!-- <div class="about-content" style="display: flex">
       <div class="about-item">
         <span class="tip">心路历程</span>
         <span class="title2">为什么建站？</span>
@@ -173,7 +173,7 @@
           这些就是创造这个小站的本意，<strong>也是我分享生活的方式</strong>。有幸能和你相遇在这里，相信我们能共同留下一段美好记忆。
         </p>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

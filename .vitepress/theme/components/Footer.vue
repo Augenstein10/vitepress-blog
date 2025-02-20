@@ -6,7 +6,7 @@
         <a :href="theme.siteMeta.author.link" class="author link" target="_blank">
           {{ theme.siteMeta.author.name }}
         </a>
-        <a class="icp link" href="https://beian.miit.gov.cn/" target="_blank">
+        <a class="icp link" href="https://google.com" target="_blank">
           <i class="iconfont icon-safe" />
           {{ theme.icp }}
         </a>
@@ -24,18 +24,14 @@
           <span class="by">Powered by</span>
           <span class="name">VitePress</span>
         </a>
-        <a class="theme link" href="https://github.com/imsyy/vitepress-theme-curve" target="_blank">
+        <a class="theme link" href="https://github.com" target="_blank">
           <span class="name">主题</span>
         </a>
         <!-- <a class="rss link" href="https://blog.imsyy.top/rss.xml" target="_blank">
           <i class="iconfont icon-rss" />
           <span class="name">订阅</span>
         </a> -->
-        <a
-          class="cc link"
-          href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans"
-          target="_blank"
-        >
+        <a class="cc link" href="https://google.com" target="_blank">
           <i class="iconfont icon-line" />
           <i class="iconfont icon-by-line" />
           <i class="iconfont icon-nc-line" />
