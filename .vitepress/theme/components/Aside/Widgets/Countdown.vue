@@ -105,6 +105,7 @@ onBeforeUnmount(() => {
     align-items: center;
     justify-content: space-evenly;
     margin-right: 0.8rem;
+    max-width: 95px;
     .text {
       font-size: 14px;
       color: var(--main-font-second-color);
@@ -113,6 +114,7 @@ onBeforeUnmount(() => {
       font-weight: bold;
       font-size: 18px;
       margin-top: 2px;
+      text-align: center;
     }
     .time {
       font-size: 30px;
