@@ -168,7 +168,7 @@ export const themeConfig = {
           url: "https://x.com",
         },
         {
-          icon: "https://linux.do/uploads/default/original/3X/9/d/9dd49731091ce8656e94433a26a3ef36062b3994.png",
+          icon: "https://imghub.laoyou.de/r2/20250507/8852d9dae53be4a62c0aff95909cdd8c.png",
           name: "Linux.do",
           url: "https://linux.do/",
         },
