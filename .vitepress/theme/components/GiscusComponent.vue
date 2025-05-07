@@ -1,5 +1,10 @@
 <script setup>
 import Giscus from "@giscus/vue";
+import { storeToRefs } from "pinia";
+import { mainStore } from "@/store";
+
+const store = mainStore();
+const { themeType} = storeToRefs(store);
 </script>
 
 <template>
@@ -15,7 +20,7 @@ import Giscus from "@giscus/vue";
       reactionsEnabled="1"
       emitMetadata="0"
       inputPosition="bottom"
-      theme="preferred_color_scheme"
+      :theme="themeType == 'dark' ? 'dark_tritanopia':'light'"
       lang="zh-CN"
       loading="lazy"
     />
