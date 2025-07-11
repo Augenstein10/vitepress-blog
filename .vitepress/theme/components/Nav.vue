@@ -154,7 +154,8 @@ const { site, theme, frontmatter, page } = useData();
     left: 0;
     width: 100vw;
     height: 60px;
-    background-color: var(--main-card-background);
+    // background-color: var(--main-card-background);
+    backdrop-filter: blur(10px);
     transition:
       background-color 0.3s,
       backdrop-filter 0.3s;
